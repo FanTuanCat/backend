@@ -1,0 +1,35 @@
+[package]
+name = "storage"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+name = "storage"
+path = "src/lib.rs"
+
+
+[dependencies]
+common = {path = "../common"}
+entity = {path = "./entity"}
+anyhow = "1.0.79"
+async-trait = "0.1.77"
+tracing = "0.1.40"
+idgenerator = "2.0.0"
+chrono = "0.4.31"
+sha256 = "1.5"
+serde = "1.0.195"
+serde_json = "1.0.111"
+futures = "0.3.30"
+sea-orm = {version = "0.12.10", features = [
+    "sqlx-postgres",
+    "sqlx-mysql",
+    "runtime-tokio-rustls",
+    "macros",
+]}
+thiserror = "1.0.56"
+bytes = "1.5.0"
+
+[dev-dependencies]
+tokio = { version = "1.35.1", features = ["macros"] }

@@ -1,0 +1,178 @@
+#mergeRequestContent {
+   width: 80%;
+   margin-left: 10%;
+}
+
+.conversiations {
+   margin-top: 40px;
+}
+
+.MRCommentNode {
+   display: flex;
+}
+
+#MRStatus {
+   display: flex;
+   background-color: rgba(179, 149, 239, 0.534);
+   align-items: center;
+   width: 100px;
+   border-radius: 20px;
+   height: 45px;
+   padding-left: 15px;
+   padding-right: 10px;
+   font-size: 18px;
+}
+
+.mergedStatusIcon {
+   width: 30px;
+   height: 30px;
+}
+
+.commentContent {
+   margin-left: 10px;
+   margin-right: 10px;
+}
+
+#MRStatusSubtitle {
+   white-space: nowrap;
+   margin-left: 45px;
+   font-size: 18px;
+}
+
+.changeHeader {
+   background-color: rgba(35, 35, 35, 0.806);
+   height: 40px;
+   line-height: 40px;
+   padding-left: 10px;
+   border-top-left-radius: 15px;
+   border-top-right-radius: 15px;
+   padding-right: 20px;
+}
+
+.commentHeader {
+   background-color: rgba(35, 35, 35, 0.18);
+   height: 40px;
+   line-height: 40px;
+   padding-left: 10px;
+   border-top-left-radius: 15px;
+   border-top-right-radius: 15px;
+   padding-right: 20px;
+}
+
+.MRBranch {
+   background-color: rgba(209, 122, 60, 0.089);
+   color: rgb(235, 14, 124);
+   border-radius: 5px;
+}
+
+#MRBottomLevel {
+   margin-top: 30px;
+}
+
+#MRFunctionButtons {
+   display: flex;
+   align-items: center;
+   list-style-type: none;
+   padding-left: 0;
+}
+
+.MRFunctionButtonsList {
+   display: flex;
+   align-items: center;
+   margin-right: 9%;
+}
+
+.MRFunctionButtonsIcon {
+   width: 30px;
+   height: 30px;
+   margin-right: 5px;
+}
+
+.MRFunctionLineChanges {
+   margin-left: 16%;
+}
+
+.conversationAcount {
+   background-color: rgba(128, 128, 128, 0.233);
+   border-radius: 50%;
+   margin-left: 5px;
+   text-align: center;
+   line-height: 25px;
+   width: 25px;
+   height: 25px;
+}
+
+#addedLines {
+   color: rgb(42, 183, 42);
+}
+
+
+.addedLines {
+   color: rgb(42, 183, 42);
+}
+
+#deletedLines {
+   color: rgb(244, 108, 108);
+}
+
+.deletedLines {
+   color: rgb(248, 9, 9);
+}
+
+.MRCommentHeadImage {
+   border-radius: 50%;
+   width: 50px;
+   height: 50px;
+   border: 1px solid rgba(128, 128, 128, 0.411);
+}
+
+.MRFunctionButtonsList {
+   padding-top: 5px;
+   padding-bottom: 5px;
+   padding-left: 15px;
+   padding-right: 15px;
+   background-color: rgba(114, 107, 86, 0.137);
+   border-radius: 1em;
+}
+
+.MRDetailButton {
+   border: none;
+   background-color: transparent;
+}
+
+.MRNormalHeadImage {
+   border-radius: 50%;
+   width: 30px;
+}
+
+.MRCommitNode {
+   display: flex;
+   margin-left: 50px;
+}
+
+.normalContent {
+   margin-right: 40px;
+}
+
+.MRAuthor {
+   margin-left: 10px;
+}
+
+.codeShowContainer {
+   padding: 10px;
+   margin: 0px;
+   background-color: rgb(0, 0, 0);
+}
+
+.changeContent {
+   margin: 0px;
+   background-color: rgb(0, 0, 0);
+}
+
+.token-line {
+   background-color: rgb(0, 0, 0);
+}
+
+.token-line {
+   height: 20px;
+}

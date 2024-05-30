@@ -1,0 +1,28 @@
+.mergeRequestTable {
+    margin-top: 20px;
+    width: 80%;
+    margin-left: 10%;
+}
+
+
+.mergeStatusIcon {
+    width: 20px;
+    margin-top: 5px;
+}
+
+.ant-table-cell {
+    padding: 3px;
+}
+
+.ant-table {
+    border-collapse: collapse;
+}
+
+.NewMR {
+    display: flex;
+    margin-left: 80%;
+}
+
+.ant-table-column-title {
+    width: 50px;
+}
